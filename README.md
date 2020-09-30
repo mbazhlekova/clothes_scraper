@@ -1,6 +1,6 @@
 # ClothesScraper
 
-**TODO: Add description**
+First attempt at a web scraper built in Elixir that finds new listings in the used clothing market.
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/clothes_scraper](https://hexdocs.pm/clothes_scraper).
-
