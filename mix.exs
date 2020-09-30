@@ -22,7 +22,8 @@ defmodule ClothesScraper.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.6"},
-      {:floki, "~> 0.28.0"}
+      {:floki, "~> 0.28.0"},
+      {:hound, "~> 1.1.0"}
     ]
   end
 end
