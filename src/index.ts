@@ -1,7 +1,7 @@
 import cheerio from "cheerio";
 import puppeteer from "puppeteer";
 
-const url = "https://www.grailed.com/";
+const url = "https://www.grailed.com/shop/8B9Z5H_WyA";
 
 puppeteer
   .launch()
@@ -14,10 +14,8 @@ puppeteer
   .then((html) => {
     const $ = cheerio.load(html);
     const menuLinks = [];
-    $(".Page-Header-Menu > a").each(function () {
-      menuLinks.push({
-        title: $(this).text(),
-      });
+    $(".feed > .feed-item").each(function () {
+      console.log($(this));
     });
     console.log(menuLinks);
   });
